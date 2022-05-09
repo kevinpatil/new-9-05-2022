@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="IMPSuite">
+  <test thread-count="4" parallel="classes" name="AllTest">
+  <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+      <class name="com.testclass.saucedemo.TS_Login_function"/>
+      <class name="com.testclass.saucedemo.TS_yourinfo_continue_function"/>
+      <class name="com.testclass.saucedemo.TS_yourinfo_cancel_function"/>
+      <class name="com.testclass.saucedemo.TS_Overview_finish_function"/>
+      <class name="com.testclass.saucedemo.TS_order_complete_back_function"/>
+      <class name="com.testclass.saucedemo.TS_checkout_functionality"/>
+      <class name="com.testclass.saucedemo.TS_addcart_function"/>
+      <class name="com.testclass.saucedemo.TS_continue_shopping"/>
+      <class name="com.testclass.saucedemo.TS_ordercompletepage_confirmation"/>
+      <class name="com.testclass.saucedemo.TS_overview_page_cancel_function"/>
+      <class name="com.testclass.saucedemo.TS_remove_function"/>
+      <class name="com.testclass.saucedemo.TS_Allproductclass"/>
+    </classes>
+  </test> <!-- AllTest -->
+</suite> <!-- IMPSuite -->
