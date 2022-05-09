@@ -92,7 +92,7 @@ public class Basic
 //			System.out.println("failed");
 //	}
 		
-		
+		System.out.println("Hello program");
    }
 		
 }
